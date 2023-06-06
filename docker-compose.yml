@@ -15,7 +15,7 @@ services:
       # WEBPASSWORD: 'set a secure password here or it will be random'
     # Volumes store your data between container upgrades
     volumes:
-      - '/mnt/sharedata/docker/pihole/pihole:/etc/pihole/'
+      - '/mnt/sharedata/docker/pihole/pihole/:/etc/pihole/'
       - '/mnt/sharedata/docker/pihole/dnsmasq.d/:/etc/dnsmasq.d/'
     # Recommended but not required (DHCP needs NET_ADMIN)
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
