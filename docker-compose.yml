@@ -12,6 +12,7 @@ services:
       - "81:80/tcp"
     environment:
       TZ: 'America/Toronto'
+      WEB_PASSWORD: 'P@$$w0rd'
       # WEBPASSWORD: 'set a secure password here or it will be random'
     # Volumes store your data between container upgrades
     volumes:
